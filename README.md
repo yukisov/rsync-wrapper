@@ -1,4 +1,4 @@
-rsync-util
+rsync-wrapper
 ==========
 
 rsync wrapper program.
@@ -7,11 +7,11 @@ rsync wrapper program.
 
 1. Clone this repo specifying a directory name.
     ```
-    $ git clone https://github.com/yukisov/rsync-util.git specific-topic-dir
+    $ git clone https://github.com/yukisov/rsync-wrapper.git specific-topic-dir
     $ cd specific-topic-dir
     ```
 
-2. Set up the rsync-util
+2. Set up the rsync-wrapper
     ```
     $ rm -rf .git
     $ mv README.md .rsync/
