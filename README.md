@@ -12,7 +12,7 @@ rsync wrapper program.
 
 2. Set up the rsync-util
     ```
-    $ rm README.md
+    $ cd README.md .rsync/
     # configure some setting values
     $ vi .rsync/rsync.py
     # configure excluded paths
