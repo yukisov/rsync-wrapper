@@ -41,3 +41,6 @@ You'll want to backup this directory onto other machine.
     ```
     $ ./.rsync/rsync.py -a
     ```
+
+##License
+- MIT License
