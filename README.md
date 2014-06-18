@@ -8,11 +8,13 @@ rsync wrapper program.
 1. Clone this repo specifying a directory name.
     ```
     $ git clone https://github.com/yukisov/rsync-util.git specific-topic-dir
+    $ cd specific-topic-dir
     ```
 
 2. Set up the rsync-util
     ```
-    $ cd README.md .rsync/
+    $ rm -rf .git
+    $ mv README.md .rsync/
     # configure some setting values
     $ vi .rsync/rsync.py
     # configure excluded paths
@@ -22,7 +24,6 @@ rsync wrapper program.
 
 3. Create some files related your specific topic for this directory. 
     ```
-    $ cd specific-topic-dir
     $ vi some_files
     ```
 You'll want to backup this directory onto other machine.
