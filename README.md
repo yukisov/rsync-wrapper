@@ -29,15 +29,15 @@ You'll want to backup this directory onto other machine.
 
 4. Confirm the rsync command to be excluded
     ```
-    $ ./.rsync/rsync -c
+    $ ./.rsync/rsync.py -c
     ```
 
 5. Execute rsync with dry-run
     ```
-    $ ./.rsync/rsync
+    $ ./.rsync/rsync.py
     ```
 
 6. Execute rsync in effect
     ```
-    $ ./.rsync/rsync -a
+    $ ./.rsync/rsync.py -a
     ```
